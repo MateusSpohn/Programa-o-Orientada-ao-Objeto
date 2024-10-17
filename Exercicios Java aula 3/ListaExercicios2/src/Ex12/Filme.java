@@ -1,0 +1,33 @@
+package Ex12;
+
+public class Filme {
+    public String titulo;
+    public String diretor;
+    public String duracao;
+
+    public Filme(String titulo, String diretor, String duracao) {
+        this.titulo = titulo;
+        this.diretor = diretor;
+        this.duracao = duracao;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getDiretor() {
+        return diretor;
+    }
+
+    public String getDuracao() {
+        return duracao;
+    }
+
+    public void iniciar(){
+        System.out.println("O Filme " + titulo + " iniciou");
+    }
+
+    public void parar(){
+        System.out.println("O Filme " + titulo + " parou");
+    }
+}
